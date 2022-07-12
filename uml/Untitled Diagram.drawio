@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" modified="2022-07-12T02:42:36.346Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.20 Safari/537.36 Edg/104.0.1293.14" etag="ifopjg8piqF6xSlxjLWw" version="17.5.0" type="github">
+  <diagram name="iPhone" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
+    <mxGraphModel dx="868" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-2" value="iPhone" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="1600" height="50" as="geometry" />
+        </mxCell>
+        <object label="tech.cbm.dio.iphone" name="tech.cbm.dio.iphone" id="yEPhYRdG-g8mvSRq41yZ-3">
+          <mxCell style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fontSize=24;flipH=0;flipV=0;" vertex="1" parent="1">
+            <mxGeometry x="100" y="90" width="1280" height="760" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;entryX=0.163;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=0;endArrow=none;endFill=0;jumpStyle=none;rounded=0;" edge="1" parent="1" source="yEPhYRdG-g8mvSRq41yZ-9" target="yEPhYRdG-g8mvSRq41yZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ReprodutorMusical&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ selecionarMusica(): void&lt;br&gt;+ tocar(Musica): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pausar(Musica): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=block;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="yEPhYRdG-g8mvSRq41yZ-10" target="yEPhYRdG-g8mvSRq41yZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AparelhoTelefonico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ ligar(int): void&lt;br&gt;+ atender(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ iniciarCorreioVoz(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Iphone&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- numero: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ selecionarMusica(): void&lt;br&gt;+ tocar(Musica): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pausar(Musica): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="430" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;NavegadorInternet&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ exibirPagina(string): void&lt;br&gt;+ adicionarNovaAba(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ atualizarPagina(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="140" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yEPhYRdG-g8mvSRq41yZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;startArrow=block;startFill=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yEPhYRdG-g8mvSRq41yZ-18" target="yEPhYRdG-g8mvSRq41yZ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="290" as="sourcePoint" />
+            <mxPoint x="492.5" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="885" y="380" />
+              <mxPoint x="518" y="380" />
+              <mxPoint x="518" y="390" />
+              <mxPoint x="513" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
